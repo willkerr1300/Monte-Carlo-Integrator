@@ -1,16 +1,12 @@
 # Monte-Carlo-Integrator
 Monte Carlo integration for high-dimensional functions
-Features
 
-Monte Carlo integration in arbitrary dimensions.
-
-Core computation in C++ for speed.
-
-OpenMP multi-threading to utilize multiple CPU cores.
-
-Batching in Python to reduce memory usage for large sample sizes.
-
-Easy Python interface for flexible integration.
+Features:
+ - Monte Carlo integration in arbitrary dimensions.
+ - Core computation in C++ for speed.
+ - OpenMP multi-threading to utilize multiple CPU cores.
+ - Batching in Python to reduce memory usage for large sample sizes.
+ - Easy Python interface for flexible integration.
 
 Setup & Compilation:
 
