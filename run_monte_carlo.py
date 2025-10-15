@@ -1,5 +1,5 @@
 import time
-from monte_carlo_wrapper import monte_carlo_integrate
+from MC_Integrator import monte_carlo_integrate
 
 dim = 5
 n_samples = 10_000_000
