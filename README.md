@@ -11,7 +11,9 @@ Features:
 Setup & Compilation:
 
 1. Install pybind
-   pip install pybind11
+
+   ```pip install pybind11```
+   
 2. Compile the C++ Module
-   c++ -O3 -Wall -shared -std=c++17 -fopenmp -fPIC \
-   $(python3 -m pybind11 --includes) monte_carlo_batch.cpp -o monte_carlo_batch$(python3-config --extension-suffix)
+   
+   ```c++ -O3 -Wall -shared -std=c++17 -fopenmp -fPIC $(python3 -m pybind11 --includes) monte_carlo_batch.cpp -o monte_carlo_batch$(python3-config --extension-suffix)```
